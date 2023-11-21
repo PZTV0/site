@@ -1,0 +1,266 @@
+*/ {
+    box-sizing: border-box;
+}
+
+body {
+    
+    background-color: #0F0F0F;
+    margin: 0px;
+    font-family: sans-serif, montserrat;
+    
+
+    
+    
+}
+
+
+.container {
+    
+   
+    display: flex;
+    justify-content: center;
+
+}
+
+.cont {
+    position: relative;
+    border-radius: 20px;
+    margin-top: 3em;
+    justify-content: center;
+    background-color: #1e1e40;
+    width: 567px;
+    height: auto;
+    
+}
+
+
+
+.text {
+    text-align: center;
+    color: #c5c5ff;
+    font-size: 24px;
+    font-family: sans-serif;
+    font-weight: 800;
+    word-wrap: break-word;
+    text-shadow: black 2px 2px 0, black -2px -2px 0, black -2px 2px 0, black 2px -2px 0;
+  }
+
+.text-1 {
+    text-shadow: black 2px 2px 0, black -2px -2px 0, black -2px 2px 0, black 2px -2px 0;
+    color: #c5c5ff;
+    font-size: 14px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 350;
+    word-wrap: break-word
+}
+
+
+.button { 
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    margin-bottom: 10px;
+    width: 292px;
+    height: 65px;
+    border-radius: 10px;
+    background-color: #c5c5ff;
+    color: #1e1e29;
+    border: 0px;
+
+    transition: background-color 0.4s linear;
+}
+
+
+.button:hover {
+    background-color: #d7d7ff;
+}
+
+.background {
+    position: absolute;
+    background-image: url(./img/rustboxblur.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+  }
+
+  .ps {
+    margin-left: 10em;
+    
+    
+   
+  }
+
+  .checkbox {
+    width: 26px;
+    height: 25px;
+    border-radius: 3px;
+    border: 1px solid #FFF;
+
+    background-clip: #393A4F;
+  }
+
+.text-2 {
+
+
+    margin-left: 20px;
+    color: #ffffff;
+  }
+
+
+  .block {
+   
+    display: flex;
+  }
+
+
+  @media (max-width: 428px) {
+    .cont{ 
+    text-align: center;
+     }
+    .ps {
+        margin-left: 0em;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+::-webkit-scrollbar {
+  width: 1px; 
+  height: 1px; 
+  background-color: #ffffff;
+}
+
+
+::-webkit-scrollbar-thumb {
+  background-color: #FF8E00;
+}
+
+
+
+
+
+::-webkit-scrollbar-button:vertical:start:decrement {
+  background: linear-gradient(120deg, #02141a 40%, rgba(0, 0, 0, 0) 41%),
+      linear-gradient(240deg, #02141a 40%, rgba(0, 0, 0, 0) 41%),
+      linear-gradient(0deg, #02141a 30%, rgba(0, 0, 0, 0) 31%);
+  background-color: #f6f8f4;
+}
+
+::-webkit-scrollbar-button:vertical:end:increment {
+  background:
+      linear-gradient(300deg, #02141a 40%, rgba(0, 0, 0, 0) 41%),
+      linear-gradient(60deg, #02141a 40%, rgba(0, 0, 0, 0) 41%),
+      linear-gradient(180deg, #02141a 30%, rgba(0, 0, 0, 0) 31%);
+  background-color: #f6f8f4;
+}
+
+::-webkit-scrollbar-button:horizontal:start:decrement {
+  background:
+      linear-gradient(30deg, #02141a 40%, rgba(0, 0, 0, 0) 41%),
+      linear-gradient(150deg, #02141a 40%, rgba(0, 0, 0, 0) 41%),
+      linear-gradient(270deg, #02141a 30%, rgba(0, 0, 0, 0) 31%);
+  background-color: #f6f8f4;
+}
+
+::-webkit-scrollbar-button:horizontal:end:increment {
+  background:
+      linear-gradient(210deg, #02141a 40%, rgba(0, 0, 0, 0) 41%),
+      linear-gradient(330deg, #02141a 40%, rgba(0, 0, 0, 0) 41%),
+      linear-gradient(90deg, #02141a 30%, rgba(0, 0, 0, 0) 31%);
+  background-color: #f6f8f4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.mine {
+  margin-top: 40px;
+}
+
+
+.none-container {
+  flex-wrap: wrap;
+  display: flex;
+  background-color: #ffffff;
+  justify-content: space-around;
+  width: 100%;
+  height: auto;
+}
+
+
+.none {
+  margin-top: 50px;
+
+  width: 400px;
+  height: 400px;  
+}
+
+.svg {
+  margin-top: 15px;
+}
+
+.text-none {
+  color: #1e1e1e;
+  text-align: center;
+  font-size: 36px;
+  font-family: montserrat;
+  font-weight: 700;
+}
+
+
+
+
+
+.grid-container {
+  flex-wrap: wrap;
+  justify-content: space-around;
+  display: flex;
+  background-color: #0F0F0F;
+  width: 100%;
+  height: auto;
+}
+
+.grid {
+  margin-top: 30px;
+  width: 400px;
+  height: auto;
+  background-color: #1e1e1e;
+}
+
+.grid-text {
+  margin-left: 20px;
+  color: #ffffff;
+  font-family: montserrat;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.grid-img {
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+
+
+
+
+
